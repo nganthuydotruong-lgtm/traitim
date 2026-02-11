@@ -261,7 +261,7 @@ class Point {
     context.shadowBlur = 15;
     context.shadowColor = "#1b0101";
     
-    context.fillText( canvas.width / 2, canvas.height / 2);
+    context.fillText( "I Love You", canvas.width / 2, canvas.height / 2);
 
     // Update stats
     frameCount++;
@@ -342,4 +342,5 @@ class Point {
       this.textContent = '🎵 Music';
   }
   updateActiveButton(this);
+
   });
